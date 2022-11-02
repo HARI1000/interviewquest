@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            padding:20vh 20vh;
+            
+        }
+        body{
+            background-image:url("img1.jpg");
+        }
+        button{
+            padding:1vh 1vh;
+            
+            background-color:aquamarine;
+            border-radius:10px;
+            border: none;
+            color: black;
+        }
+        .cont{
+            border:solid black 2px;
+            padding:5vh 5vh;
+            border-radius:10px;
+        }
+        #counterdisp{
+            border-radius:10px;
+            padding:1vh 2vh;
+            font-size: xx-large;
+            color:cyan;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cont">
+        <h1>THE CLICK-COUNTER</h1>
+        <button onclick="count()">Click to increase counter</button>
+        <h2 >Clicked for <span id="counterdisp"> </span> times</h2>
+        <script src="index.js"></script>
+        </div>
+    </div>
+</body>
+</html>
